@@ -2,13 +2,13 @@ The Reading Room
 
 A dynamic book discovery website designed to provide an interactive reading experience, allowing users to explore books, discover genres, manage their reading lists, and explore community reviews.
 
-Overview
+- Overview
 
 The Reading Room is an academic web development project that provides an interactive platform for browsing and discovering books.
 
 Users can explore a collection of books, search and filter titles by genre, save favorites, track their reading activity, and explore community reviews. The website also provides reading analytics to help users understand their reading habits.
 
-Features
+- Features
 
 Book Discovery
 
@@ -39,20 +39,23 @@ Dynamic User Interface
 Dynamic content updates based on the selected genre.
 Genre-specific visual sections and featured book displays.
 Interactive book browsing experience.
-My Contributions
+
+- My Contributions
 
 Designed and styled dynamic genre sections across the website, including visual entrances with category titles and introductory text, as well as featured book displays.
 Built the favorites functionality using Local Storage.
 Implemented reading progress tracking through the Mark as Read feature.
 Developed Reading Analytics functionality, including reading counts, genre statistics, and most-read genre calculations.
 Designed and styled the My Favorites and My Reading Analytics sections.
-Technologies Used
+
+- Technologies Used
 
 HTML5 – Website structure.
 CSS3 – Styling and visual design.
 JavaScript – Interactive functionality and dynamic content.
 Local Storage – Saving favorites and reading progress in the browser.
-Website Pages
+
+- Website Pages
 
 Home: Introduction to the website and featured books.
 Books: Browse, search, and filter the book collection.
@@ -61,12 +64,14 @@ About: Information about the project.
 Contact: Contact section.
 
 
-Live Demo
+- Live Demo
+
+  
 https://whjalfahmi.github.io/The-Reading-Room/
 
 
 
-Project Structure
+- Project Structure
 
 The project includes:
 
