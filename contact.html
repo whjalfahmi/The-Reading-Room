@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with The Reading Room.">
+    <title>Contact | The Reading Room</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">The Reading Room</h1>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="books.html">Explore Books</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" aria-current="page">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Contact Introduction -->
+        <section class="contact-intro">
+            <span class="section-label">LET'S CONNECT</span>
+            <h1>Get in Touch</h1>
+            <p>
+                Have a book recommendation, a suggestion,
+                or simply want to say hello?
+                We'd love to hear from you.
+            </p>
+        </section>
+
+        <!-- Contact Content -->
+        <section class="contact-section">
+
+            <div class="contact-info">
+                <span class="section-label">CONTACT US</span>
+
+                <h2>Let's Talk About Books.</h2>
+
+                <p>
+                    The Reading Room is a space for
+                    curious minds and passionate readers.
+                </p>
+
+                <p>
+                    Whether you have feedback about the
+                    website or a story worth sharing,
+                    your thoughts are always welcome.
+                </p>
+
+                <div class="contact-note">
+                    <h3>A Little Note</h3>
+                    <p>
+                        Every great reading journey
+                        begins with a conversation.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form-container">
+
+                <h2>Send a Message</h2>
+                <p>
+                    Fill out the form below to prepare
+                    your message.
+                </p>
+
+                <form id="contactForm">
+
+                    <div class="form-group">
+                        <label for="contactName">Your Name</label>
+                        <input
+                            type="text"
+                            id="contactName"
+                            name="name"
+                            placeholder="Enter your name"
+                            autocomplete="name"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contactEmail">Email Address</label>
+                        <input
+                            type="email"
+                            id="contactEmail"
+                            name="email"
+                            placeholder="Enter your email"
+                            autocomplete="email"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contactMessage">Your Message</label>
+                        <textarea
+                            id="contactMessage"
+                            name="message"
+                            rows="6"
+                            placeholder="Write your message here..."
+                            required
+                        ></textarea>
+                    </div>
+
+                    <button type="submit" class="contact-submit">
+                        Prepare Message
+                    </button>
+
+                    <p id="formStatus" role="status" aria-live="polite"></p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-bottom">
+            <p>&copy; 2026 The Reading Room. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="contact.js"></script>
+
+</body>
+</html>

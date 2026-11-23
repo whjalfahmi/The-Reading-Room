@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../my-project (2)/my-project/static"
+		},
+		{
+			"path": "../my-project (2)/my-project/templates"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "templates"
+	}
+}
